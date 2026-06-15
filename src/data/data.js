@@ -14,19 +14,19 @@ export const contactInfo = {
 
 export const heroSlides = [
   {
-    image: "/hero/heroimage (1).jpg",
+    image: "/hero/heroimage (1).JPG",
     title: "No 1 spa in chembur ",
     subtitle:
       "Relax, rejuvenate, and restore your mind and body with our premium spa treatments.",
   },
   {
-    image: "/hero/heroimage (2).jpg",
+    image: "/hero/heroimage (3).JPG",
     title: "Best spa services ",
     subtitle:
       "Experience world-class massage therapies designed to reduce stress and improve wellness.",
   },
   {
-    image: "/hero/heroimage (3).jpg",
+    image: "/hero/heroimage (2).JPG",
     title: "Expert staff Available",
     subtitle:
       "Indulge in exclusive spa rituals and luxury wellness treatments tailored for you.",
