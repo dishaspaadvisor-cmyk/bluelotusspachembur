@@ -94,39 +94,7 @@ Premium Wellness Packages </span>
     </div>
   </section >
 
-        {/* CTA Section */ }
-        < section className = "pb-20" >
-            <div className="mx-auto max-w-5xl px-6">
-                <div className="rounded-[40px] bg-gradient-to-r from-blue-800 to-cyan-600 p-10 text-center text-white shadow-2xl">
-                    <h2 className="text-3xl font-bold md:text-4xl">
-                        Ready To Relax?
-                    </h2>
 
-                    <p className="mx-auto mt-4 max-w-2xl text-blue-100">
-                        Book your appointment today and enjoy premium spa
-                        treatments in a luxurious and peaceful atmosphere.
-                    </p>
-
-                    <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
-                        <a
-                            href="tel:+91 8433608211"
-                            className="rounded-2xl bg-white px-8 py-4 font-semibold text-blue-800 transition hover:scale-105"
-                        >
-                            Call Now
-                        </a>
-
-                        <a
-                            href="https://wa.me/918433608211"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="rounded-2xl border border-white px-8 py-4 font-semibold transition hover:bg-white hover:text-blue-800"
-                        >
-                            WhatsApp Booking
-                        </a>
-                    </div>
-                </div>
-            </div>
-   </section >
   </main >
  );
 }

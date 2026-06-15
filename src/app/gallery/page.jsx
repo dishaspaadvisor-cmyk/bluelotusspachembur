@@ -39,22 +39,28 @@ export default function GalleryPage() {
     return (
         <main className="min-h-screen bg-slate-50">
             {/* Hero Section */}
-            <section className="bg-gradient-to-r from-blue-700 via-sky-600 to-cyan-500 py-20 text-white">
-                <div className="mx-auto max-w-7xl px-6 text-center">
-                    <h1 className="text-4xl font-bold md:text-6xl">
+            <section className="relative overflow-hidden bg-white py-24">
+                <div className="absolute inset-0 bg-gradient-to-b from-blue-50 via-white to-slate-50" />
+
+                <div className="relative mx-auto max-w-7xl px-6 text-center">
+                    <span className="inline-flex rounded-full border border-blue-200 bg-blue-50 px-5 py-2 text-sm font-medium text-blue-700">
+                        Luxury Wellness Experience
+                    </span>
+
+                    <h1 className="mt-6 text-4xl font-bold text-slate-900 md:text-6xl">
                         Spa Gallery
                     </h1>
 
-                    <p className="mt-4 text-lg text-blue-100">
-                        Explore our luxury spa ambiance, premium rooms and wellness
-                        experiences.
+                    <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-slate-600">
+                        Explore our luxury spa ambiance, premium rooms, elegant interiors,
+                        and wellness experiences designed for complete relaxation and comfort.
                     </p>
                 </div>
             </section>
 
             {/* Gallery Grid */}
             <section className="mx-auto max-w-7xl px-6 py-20">
-                <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
                     {galleryImages.map((item) => (
                         <GalleryCard
                             key={item.id}

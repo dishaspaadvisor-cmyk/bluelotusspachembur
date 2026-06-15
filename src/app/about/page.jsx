@@ -22,7 +22,7 @@ export default function AboutPage() {
 
               <div className="overflow-hidden rounded-3xl shadow-2xl">
                 <Image
-                  src="/hero/heroimage (9).jpg"
+                  src="/hero/ChatGPT Image Jun 11, 2026, 12_40_08 PM.png"
                   alt="Blue Lotus Spa"
                   width={700}
                   height={800}
@@ -118,36 +118,46 @@ export default function AboutPage() {
       </section>
 
       {/* Statistics */}
-      <section className="bg-blue-600 py-10  text-white">
+      <section className="bg-white py-16">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="grid grid-cols-2 gap-8 text-center lg:grid-cols-4">
-            <div>
-              <h2 className="text-4xl font-bold">10+</h2>
-              <p className="mt-2 text-blue-100">
+          <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
+
+            <div className="rounded-3xl border border-slate-100 bg-white p-8 text-center shadow-lg transition hover:-translate-y-2 hover:shadow-xl">
+              <h2 className="text-4xl font-bold text-blue-600">
+                10+
+              </h2>
+              <p className="mt-3 text-slate-600">
                 Years Experience
               </p>
             </div>
 
-            <div>
-              <h2 className="text-4xl font-bold">5000+</h2>
-              <p className="mt-2 text-blue-100">
+            <div className="rounded-3xl border border-slate-100 bg-white p-8 text-center shadow-lg transition hover:-translate-y-2 hover:shadow-xl">
+              <h2 className="text-4xl font-bold text-blue-600">
+                5000+
+              </h2>
+              <p className="mt-3 text-slate-600">
                 Happy Clients
               </p>
             </div>
 
-            <div>
-              <h2 className="text-4xl font-bold">25+</h2>
-              <p className="mt-2 text-blue-100">
+            <div className="rounded-3xl border border-slate-100 bg-white p-8 text-center shadow-lg transition hover:-translate-y-2 hover:shadow-xl">
+              <h2 className="text-4xl font-bold text-blue-600">
+                25+
+              </h2>
+              <p className="mt-3 text-slate-600">
                 Spa Treatments
               </p>
             </div>
 
-            <div>
-              <h2 className="text-4xl font-bold">4.9★</h2>
-              <p className="mt-2 text-blue-100">
+            <div className="rounded-3xl border border-slate-100 bg-white p-8 text-center shadow-lg transition hover:-translate-y-2 hover:shadow-xl">
+              <h2 className="text-4xl font-bold text-blue-600">
+                4.9★
+              </h2>
+              <p className="mt-3 text-slate-600">
                 Customer Rating
               </p>
             </div>
+
           </div>
         </div>
       </section>

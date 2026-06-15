@@ -14,19 +14,19 @@ export const contactInfo = {
 
 export const heroSlides = [
   {
-    image: "/hero/heroimage (1).JPG",
+    image: "/hero/heroimage1.png",
     title: "No 1 spa in chembur ",
     subtitle:
       "Relax, rejuvenate, and restore your mind and body with our premium spa treatments.",
   },
   {
-    image: "/hero/heroimage (3).JPG",
+    image: "/hero/heroimage2.png",
     title: "Best spa services ",
     subtitle:
       "Experience world-class massage therapies designed to reduce stress and improve wellness.",
   },
   {
-    image: "/hero/heroimage (2).JPG",
+    image: "/hero/heroimage3.png",
     title: "Expert staff Available",
     subtitle:
       "Indulge in exclusive spa rituals and luxury wellness treatments tailored for you.",
@@ -44,59 +44,65 @@ export const services = [
   {
     id: 1,
     title: "Swedish Massage",
-    image: "/services/servicesimage (1).JPG",
+    image: "/services/servicesimage1.JPG",
     description:
       "A gentle full-body massage designed to relax muscles and improve circulation.",
   },
   {
     id: 2,
     title: "Deep Tissue Massage",
-    image: "/services/servicesimage (2).JPG",
+    image: "/services/servicesimage2.JPG",
     description:
       "Targets deeper muscle layers to relieve chronic tension and pain.",
   },
   {
     id: 3,
     title: "Full Body Massage",
-    image: "/services/servicesimage (3).JPG",
+    image: "/services/servicesimage3.JPG",
     description:
       "Complete relaxation for your body, mind, and soul.",
   },
   {
     id: 4,
     title: "Foot Reflexology",
-    image: "/services/servicesimage (4).JPG",
+    image: "/services/servicesimage4.JPG",
     description:
       "Relax tired feet and restore overall wellness.",
   },
   {
     id: 5,
     title: "Thai Massage",
-    image: "/services/servicesimage (5).JPG",
+    image: "/services/servicesimage5.JPG",
     description:
       "A traditional therapy combining stretching and pressure techniques.",
   },
   {
     id: 6,
     title: "Female to Male Massage",
-    image: "/services/servicesimage (6).JPG",
+    image: "/services/servicesimage6.JPG",
     description:
       "Professional therapy designed for ultimate comfort and stress relief.",
   },
   {
     id: 7,
     title: "Body Scrub",
-    image: "/services/servicesimage (7).JPG",
+    image: "/services/servicesimage7.JPG",
     description:
       "Exfoliating treatment that leaves skin smooth, soft, and refreshed.",
   },
   {
     id: 8,
     title: "Hot Oil Massage",
-    image: "/services/servicesimage (8).JPG",
+    image: "/services/servicesimage8.JPG",
     description:
       "Warm oils and soothing techniques for deep relaxation.",
   },
+{
+  id:9,
+  title:"Jacuzzi Massage",
+  image:"/services/servicesimage9.JPG ",
+  description:"Luxury hydrotherapy for complete rejuvenation.",
+}
 ];
 
 export const offers = [
@@ -118,16 +124,16 @@ export const offers = [
 ];
 
 export const galleryImages = [
-  { id: 1, image: "/gallery/galleryimage (1).JPG" },
-  { id: 2, image: "/gallery/galleryimage (8).JPG" },
-  { id: 3, image: "/gallery/galleryimage (12).JPG" },
-  { id: 4, image: "/gallery/galleryimage (6).JPG" },
-  { id: 5, image: "/gallery/galleryimage (9).JPG" },
-  { id: 6, image: "/gallery/galleryimage (10).JPG" },
-  { id: 7, image: "/gallery/galleryimage (11).JPG" },
-  { id: 8, image: "/gallery/galleryimage (13).JPG" },
-  { id: 9, image: "/gallery/galleryimage (3).JPG" },
-  { id: 10, image: "/gallery/galleryimage (7).JPG" },
+  { id: 1, image: "/gallery/galleryimage1.JPG" },
+  { id: 2, image: "/gallery/galleryimage2.JPG" },
+  { id: 3, image: "/gallery/galleryimage3.JPG" },
+  { id: 4, image: "/gallery/galleryimage4.JPG" },
+  { id: 5, image: "/gallery/galleryimage5.JPG" },
+  { id: 6, image: "/gallery/galleryimage6.JPG" },
+  { id: 7, image: "/gallery/galleryimage7.JPG" },
+  { id: 8, image: "/gallery/galleryimage8.JPG" },
+  { id: 9, image: "/gallery/galleryimage9.JPG" },
+
 ];
 
 export const faqs = [

@@ -8,19 +8,19 @@ import { heroSlides } from "@/data/data";
 
 const slides = [
   {
-    image: "/hero/heroimage (1).JPG",
+    image: "/hero/heroimage (2).png",
     title: "No 1 spa in chembur ",
     subtitle:
       "Relax, rejuvenate, and restore your mind and body with our premium spa treatments.",
   },
   {
-    image: "/hero/heroimage (2).JPG",
+    image: "/hero/heroimage (1).png",
     title: "Expert Staff Available ",
     subtitle:
       "Experience world-class massage therapies designed to reduce stress and improve wellness.",
   },
   {
-    image: "/hero/heroimage (3).JPG",
+    image: "/hero/heroimage (3).png",
     title: "Best Spa services ",
     subtitle:
       "Indulge in exclusive spa rituals and luxury wellness treatments tailored for you.",
