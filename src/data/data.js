@@ -100,7 +100,7 @@ export const services = [
 {
   id:9,
   title:"Jacuzzi Massage",
-  image:"/services/servicesimage9.JPG ",
+  image:"/services/servicesimage9.JPG",
   description:"Luxury hydrotherapy for complete rejuvenation.",
 }
 ];
