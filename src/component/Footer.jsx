@@ -51,7 +51,7 @@ export default function Footer() {
 
                                 <span>
                                     Shop no. 10, 1st floor, K Star Mall, VN Purav Marg, Diamond Garden,
-                                     Basant Garden, Chembur, East Mumbai, Maharashtra 400071
+                                    Basant Garden, Chembur, East Mumbai, Maharashtra 400071
                                 </span>
                             </div>
                         </div>
@@ -154,6 +154,21 @@ export default function Footer() {
                     <p className="text-sm text-slate-400">
                         © {new Date().getFullYear()} Blue Lotus Spa chembur. All Rights Reserved.
                     </p>
+                </div>
+                <div className="flex flex-wrap gap-4 text-sm">
+                    <Link
+                        href="/privacy"
+                        className="text-slate-400 transition hover:text-blue-500 hover:via-sky-700 text-white"
+                    >
+                        Privacy Policy
+                    </Link>
+
+                    <Link
+                        href="/terms"
+                        className="text-slate-400 transition hover:text-blue-500 hover:border-e-sky-700 text-white"
+                    >
+                        Terms & Conditions
+                    </Link>
                 </div>
             </div>
         </footer>
