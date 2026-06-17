@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Script from "next/script";
 import "./globals.css";
 import Header from "@/component/Header";
 import Footer from "@/component/Footer";
@@ -51,18 +50,7 @@ export default function RootLayout({ children }) {
         {children}
 
         <Footer />
-      <Script id="bookingbot-widget" strategy="afterInteractive">
-    {`
-      (function(){
-        const spaId = "702";
-        const script = document.createElement('script');
-        script.src = 'https://chatbot.bookingbot.in/bot.js?spa=' + spaId;
-        script.async = true;
-        script.setAttribute('data-spa', spaId);
-        document.head.appendChild(script);
-      })();
-    `}
-  </Script>
+    
       </body>
     </html>
   );
